@@ -1,7 +1,8 @@
 # Install ArchiveBox to /root/ArchiveBox and add PATH
 git clone https://github.com/pirate/ArchiveBox.git 
+sleep 5
 setenv PATH /sbin:/bin:/usr/sbin:/usr/bin:/usr/local/sbin:/usr/local/bin:/root/bin:/root/bin:/root/ArchiveBox/bin
-
+sleep 5
 # Output and save instructions
 echo "Access the plugin jail's shell and run archivebox {path to bookmark file} to archive links."
 echo "Visit https://github.com/pirate/ArchiveBox/wiki/Usage for more information on useage" 
